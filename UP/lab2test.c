@@ -23,14 +23,14 @@ int main() {
     
     int a, b, c;
     
-    printf("\n Enter a, b and c respectively: ");
+    printf("\nEnter a, b and c respectively: ");
     scanf("%d %d %d", &a, &b, &c);
     
     int e = a;
     int f = b;
     int g = c;
     
-    printf("Value before swapping:\n");
+    printf("Value before swapping:\n\n");
     printf("n1 = %d \nn2 = %d \nn3 = %d\n", a, b, c);
 
     rCyclicSwap(&a, &b, &c);
