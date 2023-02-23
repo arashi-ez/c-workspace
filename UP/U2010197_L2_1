@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int a;
+int b;
+int c;
+
+void cyclicSwap(){
+    printf("Type 3 vars.");
+    return 0;
+}
+
+int main(){
+    cyclicSwap();
+    return 0;
+}
