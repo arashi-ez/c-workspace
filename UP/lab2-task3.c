@@ -19,17 +19,17 @@ int main()
     
     printf("Content: %s\n",st);
 	dest = strrchr(st, ch);
-	printf("String after last %c is : %s \n", ch, dest);
+	printf("Last %c is : %s \n", ch, dest);
 
     //second seek
     char ch2 = 't';
     dest = strrchr(st, ch2);
-	printf("String after last %c is : %s \n", ch2, dest);
+	printf("Last %c is : %s \n", ch2, dest);
     
     //third seek
     char ch3 = 'a';
     dest = strrchr(st, ch3);
-    printf("String after last %c is : %s ",	ch3, dest);
+    printf("Last %c is : %s ",	ch3, dest);
 
     return 0;
 }
