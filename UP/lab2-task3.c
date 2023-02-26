@@ -4,6 +4,7 @@
 */
 #include <stdio.h>
 #include <string.h>
+//this code is finding the sequence of given sentence, if found a character.
 
 int main()
 {
@@ -29,7 +30,6 @@ int main()
     char ch3 = 'a';
     dest = strrchr(st, ch3);
     printf("String after last %c is : %s ",	ch3, dest);
-	
-    return 0;
 
+    return 0;
 }
